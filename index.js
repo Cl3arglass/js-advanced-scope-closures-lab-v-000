@@ -7,8 +7,8 @@ function createDriver() {
       this.id = ++DriverId;
     }
 
-    produceDrivingRange() {
-      
+    produceDrivingRange(blockRange) {
+      return blockRange;
     }
   };
 }
