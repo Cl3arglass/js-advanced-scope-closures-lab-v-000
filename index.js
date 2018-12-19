@@ -9,7 +9,8 @@ function createDriver() {
 
 
   };
-  function produceDrivingRange(blockRange) {
-    return blockRange;
-  }
+}
+
+function produceDrivingRange(blockRange) {
+  return blockRange;
 }
