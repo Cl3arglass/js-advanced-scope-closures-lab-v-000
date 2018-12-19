@@ -22,8 +22,8 @@ function produceDrivingRange(blockRange) {
   };
 }
 
-function produceTipCalculator() {
-  return function() {
-    
+function produceTipCalculator(calculator) {
+  return function(bill) {
+    return bill * calculator;
   }
 }
