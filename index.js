@@ -20,5 +20,4 @@ function produceDrivingRange(blockRange) {
 //       return `${blocks - blockRange}` blocks out of range`;
 //     }
 //   };
-// }
 }
